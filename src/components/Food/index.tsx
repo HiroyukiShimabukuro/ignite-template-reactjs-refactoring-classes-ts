@@ -35,7 +35,7 @@ const Food = ({ food, handleEditFood, handleDelete }: FoodFunctionsProps) => {
   }
 
   return (
-    <Container available={isAvailable}>
+    <Container available ={isAvailable}>
       <header>
         <img src={food.image} alt={food.name} />
       </header>

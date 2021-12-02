@@ -21,14 +21,14 @@ export const Container = styled.div`
     line-height: 36px;
   }
 
-  ${props =>
+  ${(props : { isFocused:boolean}) =>
     props.isFocused &&
     css`
       color: #ff9000;
       border-color: #ff9000;
     `}
 
-  ${props =>
+  ${(props : { isFilled: boolean}) =>
     props.isFilled &&
     css`
       color: #ff9000;
